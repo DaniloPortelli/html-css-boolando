@@ -1,0 +1,51 @@
+*{
+    margin: 0; 
+    font-family: sans-serif;
+}
+
+header{
+    
+}
+
+
+
+
+.contenitore1{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 30px;
+}
+
+
+
+div.articoli{
+    position: relative;
+}
+
+div.sconto{
+    background-color: #FF0000 ;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    padding: 2px;
+
+}
+
+div.sostenibilita{
+    background-color: #008000;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    padding: 2px;
+
+}
+
+span.red-text{
+    color:#FF0000;
+}
+
+span.line-through{
+    text-decoration: line-through;
+}
