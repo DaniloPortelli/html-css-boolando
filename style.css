@@ -51,6 +51,25 @@ div.contenitorefoto{
     right: 0;
 }
 
+.etichetta-sconto{
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    text-align: center;
+    bottom: 150px;
+    color: white;
+}
+
+.etichetta-sustain{
+    position: absolute;
+    background-color: green;
+    width: 100px;
+    text-align: center;
+    bottom: 150px;
+    left: 60px;
+    color: white;
+}
+
 .foto img{
     width: 100%;
 }
@@ -60,35 +79,6 @@ img{
 }
 
 
-
-div.sconto{
-    background-color: #FF0000 ;
-    color: white;
-    position: absolute;
-    bottom: 50px;
-    padding: 2px;
-
-}
-
-div.sostenibilita{
-    background-color: #008000;
-    color: white;
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
-    padding: 2px;
-}
-
-div.heart{
-  width: 25px; 
-  height: 25px; 
-  padding: 5px;
-  position: absolute;
-  right: 0px;
-  top: 5px;
-  background-color: white;
-}
-
 span.red-text{
     color:#FF0000;
 }
@@ -97,13 +87,19 @@ span.line-through{
     text-decoration: line-through;
 }
 
+h3{
+    text-transform: uppercase;
+}
+
 
 
 /* Footer */
 footer{
     background-color: #1A1A1A;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-block: 20px;
+    padding-inline: 200px;
     align-items: center;
     height: 100px;
 }
@@ -117,4 +113,7 @@ ul.logo{
     flex-direction: row;
     list-style-type: none;
     gap: 5px;
+    padding: 0;
+    margin: 0 auto;
+    width: 100px;
 }
