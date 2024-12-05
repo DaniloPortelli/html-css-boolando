@@ -45,6 +45,18 @@ div.contenitorefoto{
     position: relative;
 }
 
+.fotosecond{
+    display: none;
+}
+
+.fotocontainer:hover .fotofirst{
+    display: none;
+}
+
+.fotocontainer:hover .fotosecond{
+    display: block;
+}
+
 .hearts{
     position: absolute;
     padding: 10px;
